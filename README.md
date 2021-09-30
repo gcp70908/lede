@@ -9,6 +9,21 @@ src-git routing https://git.openwrt.org/feed/routing.git
 src-git telephony https://git.openwrt.org/feed/telephony.git
 src-git small https://github.com/kenzok8/small
 
+https://github.com/gcp70908/lede/blob/master/include/target.mk
+
+# For the basic set
+DEFAULT_PACKAGES.basic:=
+# For nas targets
+DEFAULT_PACKAGES.nas:=\
+# For router targets
+DEFAULT_PACKAGES.router:=\
+	dnsmasq-full \
+	firewall \
+	iptables \
+	luci-newapi coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw \
+	default-settings luci luci-app-upnp\
+	luci-app-filetransfer luci-app-ramfree\
+	luci-app-turboacc luci-app-accesscontrol
 
 欢迎来到Lean的Openwrt源码仓库！
 =
