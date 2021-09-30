@@ -43,7 +43,7 @@ DEFAULT_PACKAGES.router:=\
 	luci-newapi coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw \
 	default-settings luci luci-app-upnp\
 	luci-app-filetransfer luci-app-ramfree\
-	luci-app-turboacc luci-app-accesscontrol
+	luci-app-turboacc luci-app-accesscontrol luci-app-ssr-plus
 
 ifneq ($(DUMP),)
   all: dumpinfo
