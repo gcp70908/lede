@@ -3,10 +3,12 @@ Changes:
 https://github.com/gcp70908/lede/edit/master/feeds.conf.default
 
 src-git packages https://github.com/gcp70908/packages
+
+src-git kenzok https://github.com/gcp70908/openwrt-packages
+
 src-git luci https://github.com/coolsnowwolf/luci
 src-git routing https://git.openwrt.org/feed/routing.git
 src-git telephony https://git.openwrt.org/feed/telephony.git
-src-git kenzok https://github.com/gcp70908/openwrt-packages
 src-git small https://github.com/kenzok8/small
 
 
