@@ -20,10 +20,14 @@ DEFAULT_PACKAGES:=\
 	logd \
 	mtd \
 	netifd \
-	opkg \
+	-opkg \
 	uci \
 	uclient-fetch \
-	urandom-seed
+	urandom-seed \
+	-ppp -ppp-mod-pppoe \
+	-ip6tables -odhcp6c -kmod-ipv6 -kmod-ip6tables \
+	-odhcpd-ipv6only 
+	
 
 ifneq ($(CONFIG_SELINUX),)
 DEFAULT_PACKAGES+=busybox-selinux procd-selinux
@@ -43,7 +47,8 @@ DEFAULT_PACKAGES.router:=\
 	luci-newapi coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw \
 	default-settings luci \
 	luci-app-filetransfer luci-app-ramfree \
-	luci-app-turboacc luci-app-accesscontrol
+	luci-app-turboacc luci-app-accesscontrol \
+	-luci-app-ssr-plus
 
 ifneq ($(DUMP),)
   all: dumpinfo
