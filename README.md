@@ -11,11 +11,11 @@ src-git small https://github.com/kenzok8/small
 
 https://github.com/gcp70908/lede/blob/master/include/target.mk
 
-# For the basic set
+\# For the basic set
 DEFAULT_PACKAGES.basic:=
-# For nas targets
+\# For nas targets
 DEFAULT_PACKAGES.nas:=\
-# For router targets
+\# For router targets
 DEFAULT_PACKAGES.router:=\
 	dnsmasq-full \
 	firewall \
