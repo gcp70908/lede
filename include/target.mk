@@ -41,9 +41,9 @@ DEFAULT_PACKAGES.router:=\
 	firewall \
 	iptables \
 	luci-newapi coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw \
-	default-settings luci luci-app-upnp\
-	luci-app-filetransfer luci-app-ramfree\
-	luci-app-turboacc luci-app-accesscontrol luci-app-ssr-plus
+	default-settings luci \
+	luci-app-filetransfer luci-app-ramfree \
+	luci-app-turboacc luci-app-accesscontrol
 
 ifneq ($(DUMP),)
   all: dumpinfo
