@@ -15,7 +15,7 @@ https://github.com/gcp70908/lede/blob/master/include/target.mk
 DEFAULT_PACKAGES.basic:=
 \# For nas targets<br>
 DEFAULT_PACKAGES.nas:=\
-\# For router targets
+\# For router targets<br>
 DEFAULT_PACKAGES.router:=\
 	dnsmasq-full \
 	firewall \
