@@ -20,7 +20,7 @@ DEFAULT_PACKAGES:=\
 	logd \
 	mtd \
 	netifd \
-	-opkg \
+	opkg \
 	uci \
 	uclient-fetch \
 	urandom-seed \
